@@ -8,7 +8,8 @@ To run docker containers:
   1) Download all 3 folders and their files and put them in the same folder
   2) Run terminal
   3) Ensure system has Docker and Docker-compose installed
-  4) Run `sudo nano /etc/hosts` and change the ip addresses in front of example1.test and example2.test to match your own ip address. ![image](https://user-images.githubusercontent.com/59956497/135717115-4dcbc462-e32b-4296-8c4a-33a5ebd2e378.png) In the above case, my ip address is `127.0.1.1`.
+  4) Run `sudo nano /etc/hosts` and change the ip addresses in front of example1.test and example2.test to match your own ip address. ![image](https://user-images.githubusercontent.com/59956497/135717115-4dcbc462-e32b-4296-8c4a-33a5ebd2e378.png) 
+In the above case, my ip address is `127.0.1.1`.
   5) Navigate to example1 from terminal by running command: "`cd example1`" 
   6) Run command: "`docker-compose build -d`", your terminal should show: "Creating network "example1_default" with the default driver
 Creating example1_app_1 ... done"
