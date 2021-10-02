@@ -4,6 +4,10 @@ This repo consists of the code for 2 example websites and 1 proxy server, each i
   - example2 (nginx)
   - proxy
 
+Built by referring to:
+1) https://phoenixnap.com/kb/docker-nginx-reverse-proxy
+2) https://www.atlantic.net/dedicated-server-hosting/how-to-deploy-nginx-reverse-proxy-in-docker-on-ubuntu-20-04/
+
 To run the reverse proxy:
   1) Download all 3 folders and their files and put them in the same folder
   2) Open your linux terminal
